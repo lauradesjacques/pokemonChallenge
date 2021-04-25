@@ -1,0 +1,12 @@
+
+<h1>{{titre}}</h1>
+<div class="container" class="row">
+<div *ngFor="let pokemon of pokemons" class="card" style="width: 18rem;">
+    <img src="{{pokemon.url}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{pokemon.nom}}</h5>
+      <a href="#" class="btn btn-primary">en savoir plus</a>
+    </div>
+  </div>
+</div>
+
